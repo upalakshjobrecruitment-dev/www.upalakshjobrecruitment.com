@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upalaksh Job Recruitment - Bridging Talent with Opportunity</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1754798460/pplx_project_search_images/5eac0ae42a9aae2553c4aa01bb6a3f56f5d1679b.png" alt="Upalaksh Logo" class="logo-img">
+                    <h2>Upalaksh Job Recruitment</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#resume-tools" class="nav-link">Resume Tools</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Bridging Talent with Opportunity</h1>
+            <p>Connecting talented professionals with leading employers through personalized recruitment solutions since 2024</p>
+            <div class="hero-buttons">
+                <button class="btn btn--primary" onclick="scrollToSection('services')">For Job Seekers</button>
+                <button class="btn btn--outline" onclick="scrollToSection('services')">For Employers</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Inserted Recruitment Flyer -->
+            <img src="image.png" alt="Upalaksh Recruitment Flyer" class="flyer-img">
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Upalaksh Job Recruitment</h2>
+                <p>Your trusted partner in the Raipur job market</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Established 2024</h3>
+                    <p>Founded in 2024, we bring fresh perspectives and modern recruitment solutions to the market.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Located in Raipur</h3>
+                    <p>Office No. 42, 3rd Floor, RIO Complex, Dhamtari Road, Lalpur, Tikrapara, Raipur – 492001</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Personalized Service</h3>
+                    <p>We understand both candidate aspirations and employer needs to deliver seamless hiring experiences.</p>
+                </div>
+            </div>
+            <div class="mission-vision">
+                <div class="mission">
+                    <h3>Our Mission</h3>
+                    <p>Personalized recruitment solutions tailored to each client, leveraging deep industry expertise and commitment to excellence from consultation through to the final hire.</p>
+                </div>
+                <div class="vision">
+                    <h3>Our Vision</h3>
+                    <p>A world where job seekers find their ideal roles effortlessly and businesses excel with the right talent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Tailored solutions for job seekers and employers</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-category">
+                    <h3>For Job Seekers</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <i class="fas fa-bullseye"></i>
+                            <span>Tailored job matching rather than generic placements</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-industry"></i>
+                            <span>Industry expertise ensures relevant opportunities</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-user-tie"></i>
+                            <span>Comprehensive support with personalized care</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Guidance on resume building and interview preparation</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-key"></i>
+                            <span>Access to exclusive job opportunities</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Faster placement compared to independent applications</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Reliable and transparent hiring process</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Long-term career growth opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-category">
+                    <h3>For Clients</h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Customized recruitment solutions aligned with company culture</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-users"></i>
+                            <span>Access to pre-screened, qualified candidates</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-search"></i>
+                            <span>Thorough candidate evaluation including interviews and assessments</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Strategic recruitment consulting with market insights</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-user-plus"></i>
+                            <span>Seamless onboarding assistance</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                            <span>Scalable recruitment from single roles to bulk hiring</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Reduced hiring costs and time</span>
+                        </div>
+                        <div class="service-item">
+                            <i class="fas fa-calculator"></i>
+                            <span>Expert consultation on salary benchmarks and workforce planning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Tools Section -->
+    <section id="resume-tools" class="resume-tools">
+        <div class="container">
+            <div class="section-header">
+                <h2>Resume Tools</h2>
+                <p>Create and manage your professional resume</p>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-edit"></i>
+                        <h3>Resume Builder</h3>
+                    </div>
+                    <p>Create professional resumes with our step-by-step builder</p>
+                    <button class="btn btn--primary" onclick="openResumeBuilder()">Build Resume</button>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-upload"></i>
+                        <h3>Resume Uploader</h3>
+                    </div>
+                    <p>Upload and store your existing resume for quick access</p>
+                    <button class="btn btn--outline" onclick="openResumeUploader()">Upload Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Builder Modal -->
+    <div id="resumeBuilderModal" class="modal hidden">
+        <div class="modal-content resume-builder-content">
+            <div class="modal-header">
+                <h3>Resume Builder</h3>
+                <span class="close" onclick="closeResumeBuilder()">&times;</span>
+            </div>
+            <div class="resume-builder">
+                <div class="builder-sidebar">
+                    <div class="progress-indicator">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <span class="progress-text">0% Complete</span>
+                    </div>
+                    <div class="builder-steps">
+                        <div class="step active" data-step="personal">
+                            <i class="fas fa-user"></i>
+                            <span>Personal Info</span>
+                        </div>
+                        <div class="step" data-step="summary">
+                            <i class="fas fa-align-left"></i>
+                            <span>Summary</span>
+                        </div>
+                        <div class="step" data-step="experience">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Experience</span>
+                        </div>
+                        <div class="step" data-step="education">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Education</span>
+                        </div>
+                        <div class="step" data-step="skills">
+                            <i class="fas fa-star"></i>
+                            <span>Skills</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="builder-form">
+                    <div id="personalForm" class="form-section active">
+                        <h4>Personal Information</h4>
+                        <div class="form-group">
+                            <input type="text" id="fullName" class="form-control" placeholder="Full Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" class="form-control" placeholder="Phone Number *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="address" class="form-control" placeholder="Address">
+                        </div>
+                    </div>
+                    
+                    <div id="summaryForm" class="form-section">
+                        <h4>Professional Summary</h4>
+                        <div class="form-group">
+                            <textarea id="summary" class="form-control" rows="5" placeholder="Write a brief professional summary..."></textarea>
+                        </div>
+                    </div>
+
+                    <div id="experienceForm" class="form-section">
+                        <h4>Work Experience</h4>
+                        <div id="experienceEntries"></div>
+                        <button type="button" class="btn btn--outline btn--sm" onclick="addExperience()">Add Experience</button>
+                    </div>
+
+                    <div id="educationForm" class="form-section">
+                        <h4>Education</h4>
+                        <div id="educationEntries"></div>
+                        <button type="button" class="btn btn--outline btn--sm" onclick="addEducation()">Add Education</button>
+                    </div>
+
+                    <div id="skillsForm" class="form-section">
+                        <h4>Skills</h4>
+                        <div class="form-group">
+                            <textarea id="skills" class="form-control" rows="4" placeholder="Enter your skills separated by commas..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn--outline" id="prevBtn" onclick="previousStep()" disabled>Previous</button>
+                        <button type="button" class="btn btn--primary" id="nextBtn" onclick="nextStep()">Next</button>
+                        <button type="button" class="btn btn--primary hidden" id="generateBtn" onclick="generateResume()">Generate PDF</button>
+                    </div>
+                </div>
+                <div class="resume-preview">
+                    <h4>Preview</h4>
+                    <div class="preview-content" id="resumePreview">
+                        <div class="preview-placeholder">
+                            <i class="fas fa-file-alt"></i>
+                            <p>Fill out the form to see your resume preview</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Uploader Modal -->
+    <div id="resumeUploaderModal" class="modal hidden">
+        <div class="modal-content uploader-content">
+            <div class="modal-header">
+                <h3>Resume Uploader</h3>
+                <span class="close" onclick="closeResumeUploader()">&times;</span>
+            </div>
+            <div class="uploader-body">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h4>Drag and drop your resume here</h4>
+                    <p>or click to browse files</p>
+                    <p class="file-info">Supported formats: PDF, DOC, DOCX (Max 5MB)</p>
+                    <input type="file" id="fileInput" accept=".pdf,.doc,.docx" hidden>
+                </div>
+                <div class="upload-progress hidden" id="uploadProgress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span class="progress-text">Uploading...</span>
+                </div>
+                <div class="upload-success hidden" id="uploadSuccess">
+                    <div class="success-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h4>Resume uploaded successfully!</h4>
+                    <div class="file-details" id="fileDetails"></div>
+                    <div class="upload-actions">
+                        <button class="btn btn--primary" onclick="viewUploadedResume()">View Resume</button>
+                        <button class="btn btn--outline" onclick="resetUploader()">Upload Another</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Location</h2>
+                <p>Visit us at our Raipur office</p>
+            </div>
+            <div class="location-content">
+                <div class="map-container">
+                    <div id="map"></div>
+                </div>
+                <div class="location-info">
+                    <h3>Office Address</h3>
+                    <div class="address-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>RIO Complex</strong><br>
+                            Dhamtari Rd, opposite Fruit Market<br>
+                            Lalpur, Raipur – 492001
+                        </div>
+                    </div>
+                    <div class="address-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Office Hours</strong><br>
+                            Monday - Saturday: 9:00 AM - 6:00 PM<br>
+                            Sunday: Closed
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us today</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:7400713226">7400713226</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>RIO Complex, Dhamtari Rd, opposite Fruit Market, Lalpur, Raipur – 492001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <a href="https://upalakshjobrecruitment.com" target="_blank">upalakshjobrecruitment.com</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="https://in.linkedin.com/company/upalaksh-job-recruitment" target="_blank" class="social-icon linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/upalaksh_job_recruitment/" target="_blank" class="social-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://wa.me/917400713226" target="_blank" class="social-icon whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contactName" class="form-control" placeholder="Your Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" class="form-control" placeholder="Your Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="contactPhone" class="form-control" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" class="form-control" rows="5" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Upalaksh Job Recruitment</h3>
+                    <p>Bridging Talent with Opportunity</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Job Placement</a></li>
+                            <li><a href="#services">Recruitment Consulting</a></li>
+                            <li><a href="#resume-tools">Resume Tools</a></li>
+                            <li><a href="#services">Career Guidance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Upalaksh Job Recruitment. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dOWTgaSTK8qV5k&callback=initMap" async defer></script>
+    <script src="app.js"></script>
+</body>
+</html>
